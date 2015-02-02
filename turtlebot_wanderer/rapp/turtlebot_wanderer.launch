@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="turtlebot_wanderer" type="turtlebot_wanderer.py" name="turtlebot_wanderer"/>
+</launch>

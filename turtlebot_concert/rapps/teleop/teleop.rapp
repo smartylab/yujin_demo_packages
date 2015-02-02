@@ -1,0 +1,6 @@
+display: Turtlebot Teleop
+description: Take a turtle for a teleop.
+compatibility: rocon:/turtlebot
+launch: turtlebot_concert/teleop.launch
+public_interface: turtlebot_concert/teleop.interface
+icon: rocon_bubble_icons/turtle_teleop.png

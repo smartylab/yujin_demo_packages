@@ -1,0 +1,9 @@
+name: concert_adapter
+description: Manage resource allocations. 
+author: Smartylab
+priority: 3
+launcher_type: roslaunch
+launcher: concert_adapter/adapter
+icon: concert_adapter/adapter.png
+interactions: concert_adapter/adapter
+parameters: concert_adapter/adapter

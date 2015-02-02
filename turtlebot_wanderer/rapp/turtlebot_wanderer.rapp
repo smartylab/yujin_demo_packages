@@ -1,0 +1,5 @@
+display: Talker
+description: Default ros style talker tutorial
+compatibility: rocon:/
+launch: sphero_backstep.launch
+public_interface: sphero_backstep.interface

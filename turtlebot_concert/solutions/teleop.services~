@@ -1,0 +1,2 @@
+- resource_name: rocon_service_teleop/teleop
+- resource_name: rocon_service_admin/admin

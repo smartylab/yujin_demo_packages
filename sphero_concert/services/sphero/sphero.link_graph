@@ -1,0 +1,18 @@
+# Concert client tuples are of the platform-system-robot-name-app where
+# the name is just a placemarker for the eventual concert client name.
+# All other parts of the tuple are fixed.
+
+name: "Sphero Concert"
+nodes:
+  - id: sphero_backstep
+    uri: rocon:/*/*#sphero_apps/sphero_backstep
+
+topics:
+  - id: service_invoke
+    type: std_msgs/String
+actions: []
+edges:
+  - start: sphero_backstep
+    finish: 
+    remap_from: service_invoke
+    remap_to: service_invoke

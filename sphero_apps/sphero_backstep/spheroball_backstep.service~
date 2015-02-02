@@ -1,0 +1,8 @@
+name: sphero_backstep
+description: Manage resource allocations. 
+author: Smartylab
+priority: 2
+launcher_type: roslaunch
+launcher: sphero_ros/sphero_backstep
+interactions: sphero_ros/sphero_backstep
+parameters: sphero_ros/sphero_backstep

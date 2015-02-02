@@ -1,0 +1,8 @@
+<concert>
+  <arg name="local_machine_only" default="true"/>  <!-- only invite clients if they are on the same pc -->
+
+  <launch title="concert:11311" package="sphero_concert" name="concert.launch" port="11311">
+    <arg name="local_machine_only" value="$(arg local_machine_only)"/>
+  </launch>
+  <launch title="sphero_client:11312" package="sphero_bringup" name="concert_client.launch" port="11312"/>
+</concert>

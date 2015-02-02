@@ -1,0 +1,2 @@
+- resource_name: turtlebot_concert/teleop
+- resource_name: rocon_service_admin/admin

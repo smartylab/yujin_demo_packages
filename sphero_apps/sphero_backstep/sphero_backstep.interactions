@@ -1,0 +1,6 @@
+- name: sphero_backstep
+  role: 'User'
+  compatibility: rocon:/pc/*/hydro|indigo/*
+  display_name: Spheroball Backstep
+  description: Manage resource allocations in the concert
+  max: -1

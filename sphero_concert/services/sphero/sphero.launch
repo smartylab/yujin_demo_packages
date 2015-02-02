@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="sphero_concert" name="static_link_graph" type="static_link_graph_service.py">
+    <param name="filename" value="$(find sphero_concert)/services/sphero/sphero.link_graph"/>
+  </node>
+</launch>
